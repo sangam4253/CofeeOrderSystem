@@ -31,7 +31,7 @@ public class CoffeeOrder {
         return price;
      }
      public String getOrderMessage() {
-         return "Order placed for " + customerName + ":" + coffeeType;
+         return " Order placed for " + customerName + ":" + coffeeType;
      }
      public static void main(String[] args) {
          CoffeeOrder order1 = new CoffeeOrder();
